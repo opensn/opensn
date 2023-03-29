@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33417.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSN", "OpenSN\OpenSN.csproj", "{C1426699-E385-4496-A9BE-B6E0ED0A03BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenSN", "OpenSN\OpenSN.csproj", "{C1426699-E385-4496-A9BE-B6E0ED0A03BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSN.Grpc", "OpenSN.Grpc\OpenSN.Grpc.csproj", "{63F1A790-E5AF-47B5-86C0-552FC3E9F2E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSN.Cryptography", "OpenSN.Cryptography\OpenSN.Cryptography.csproj", "{8984CFC2-2D6C-4F82-BB3D-5C3E3103F8B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C1426699-E385-4496-A9BE-B6E0ED0A03BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1426699-E385-4496-A9BE-B6E0ED0A03BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1426699-E385-4496-A9BE-B6E0ED0A03BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F1A790-E5AF-47B5-86C0-552FC3E9F2E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F1A790-E5AF-47B5-86C0-552FC3E9F2E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F1A790-E5AF-47B5-86C0-552FC3E9F2E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F1A790-E5AF-47B5-86C0-552FC3E9F2E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8984CFC2-2D6C-4F82-BB3D-5C3E3103F8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8984CFC2-2D6C-4F82-BB3D-5C3E3103F8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8984CFC2-2D6C-4F82-BB3D-5C3E3103F8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8984CFC2-2D6C-4F82-BB3D-5C3E3103F8B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
